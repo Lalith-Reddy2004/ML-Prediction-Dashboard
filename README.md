@@ -29,3 +29,13 @@ I have also included a list of research papers I have curated in the feild of ML
 
 * [Support Vector Machine](Support_Vector_Machine/)
     * [Scikit Learn Implementation](Support_Vector_Machine/svm_sklearn.py)
+
+📞 Contact
+----------
+
+For any queries or suggestions, feel free to reach out:
+
+*   **👤 Name:** LALITH VARDHAN REDDY
+*   📧 **Email:** reddylalithvardhan@gmail.com
+*   💻 **GitHub:** [LALITH VARDHAN REDDY](https://github.com/Lalith-Reddy2004)
+*   🔗 **LinkedIn:** [LALITH VARDHAN REDDY](https://www.linkedin.com/in/lalithvardhan-reddy-bb0420272/)
