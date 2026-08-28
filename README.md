@@ -6,66 +6,26 @@ My Projects, Kaggle Competitions and implementation of some popularly known mach
 
 I have also included a list of research papers I have curated in the feild of ML/DL/AI.
 
-## Index: <!-- omit in toc -->
 
-- [Projects](#projects)
-- [Research Papers (Anubhav Reads)](#research-papers-anubhav-reads)
-- [Kaggle Competitions](#kaggle-competitions)
-- [Algorithms](#algorithms)
+* [Clustering Algorithms](Clustering/)
+    * [K Means](Clustering/K_Means)
+        * [Implemented](Clustering/K_Means/k_means.py)
+        * [Scikit Learn Implementation](Clustering/K_Means/k_means_sklearn.py)
 
-------------------------------------------------------------------------------
-## Content: <!-- omit in toc -->
+    * [Mean Shift](Clustering/Mean_Shift)
+        * [Implemented](Clustering/Mean_Shift/mean_shift.py)
+        * [Scikit Learn Implementation](Clustering/Mean_Shift/mean_shift_sklearn.py)
 
-### Projects
+* [Deep Learning](Deep_Learning/)
+    * [Deep Neural Networks](Deep_Learning/Deep_Neural_Networks)
+    * [Recurrent Neural Networks](Deep_Learning/Recurrent_Neural_Networks)
 
-Following are the projects I've done in the Machine Learning field:
+* [K Nearest Neighbours](K_Nearest_Neighbours/)
+    * [Implemented](K_Nearest_Neighbours/k_nearest_neighbours.py)
+    * [Scikit Learn Implementation](K_Nearest_Neighbours/knn_sklearn.py)
 
-| Name                                                                                                                 | Description                                                                                                                                                   |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Reinforcement Learning Algorithms](https://github.com/anubhavshrimal/Reinforcement-Learning)                        | Implementation of different Reinforcement Learning Algorithms such as DQN, Double-DQN, Dueling-DQN, Monte Carlo, Temporal Difference, etc.                    |
-| [RL-DQN-Navigation](https://github.com/anubhavshrimal/Navigation_Udacity_DRLND_P1)                                   | Deep-Q Learning agent that is able to maximize the reward in the Unity ML-Agents based Banana Collector environment                                           |
-| [RL-DDPG-Continuous_Control](https://github.com/anubhavshrimal/Continuous_Control_Udacity_DRLND_P2)                  | Deep Deterministic Policy Gradient Learning agent that is able to maximize the reward in the Unity ML-Agents based Reacher continuous environment             |
-| [RL-Multi_Agent_DDPG-Collaboration](https://github.com/anubhavshrimal/Collaboration_Competition_Udacity_DRLND_P3)    | Multi Agent Deep Deterministic Policy Gradient Learning agent that is able to maximize the reward in the Unity ML-Agents based Tennis continuous environment  |
-| [Image Captioning](https://github.com/anubhavshrimal/Attention-Beam-Image-Captioning)                                | Used Encoder(CNN)-Decoder(RNN) along with Attention and Beam Search heuristic  to generate caption for a given image                                          |
-| [GANs Generate Faces](https://github.com/anubhavshrimal/GANs-Generate-Faces)                                         | Used Generative Adversarial Networks (GANs) to generate new images of human faces                                                                             |
-| [SageMaker Pytorch Model Deployment](https://github.com/anubhavshrimal/SageMaker-PyTorch-Model-Deployment)           | Deployed a Pytorch model which predicts the sentiment of a review using Amazon's SageMaker                                                                    |
-| [RNN Generate TV Scripts](https://github.com/anubhavshrimal/RNN-Generate-TV-Scripts)                                 | An LSTM implementation in PyTorch that generates a new, "fake" TV script using Seinfeld dataset of scripts from 9 seasons                                     |
-| [SML Malaria Detection](https://github.com/anubhavshrimal/SML-Malaria-Detection)                                     | Compare Naive Bayes, SVM, XGBoost, Bagging, AdaBoost, K-Nearest Neighbors, Random Forests for classification of Malaria Cells                                 |
-| [Quick Draw](https://github.com/anubhavshrimal/Quick-Draw)                                                           | Implementation of Google Quick Draw doodle recognition game in PyTorch and other classifiers                                                                  |
-| [CNN Dog Breed Classifier](https://github.com/anubhavshrimal/CNN-Dog-Breed-Classifier)                               | CNN implementation in PyTorch to identify dog's breed from given image. If supplied an image of a human face, the code will identify the resembling dog breed |
-| [Neural Networks Bike Sharing Prediction](https://github.com/anubhavshrimal/Neural-Networks-Bike-Sharing-Prediction) | Neural Network implemented from scratch in numpy to predict bike rentals daily on an hourly basis                                                             |
-| [Face Recognition](https://github.com/anubhavshrimal/Face-Recognition)                                               | Project to recognise people from an Image or video similar to facebook                                                                                        |
-| [Simulated Self Driving Car](https://github.com/anubhavshrimal/Simulated_Self_Driving_Car)                           | Training an CNN model to drive a car in simulation                                                                                                            |
-| [Chess AI](https://github.com/anubhavshrimal/Chess-AI)                                                               | Chess AI which uses Alpha-Beta Pruning to select best moves.                                                                                                  |
-| [Amazon Alexa Skills](https://github.com/anubhavshrimal/Amazon-Alexa-Skills)                                         | Amazon Alexa Skills made using Alexa Skills Kit and AWS Lambda function                                                                                       |
+* [Linear Regression](Linear_Regression/)
+    * [Scikit Learn Implementation](Linear_Regression/linear_regression_sklearn.py)
 
-There are a few other projects I've done but currently not on Github:
-
-| Name                                  | Description                                                                                                  |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Game Bot using Reinforcement Learning | Game bot trained using Deep Q Networks and Q-learning to play games such as PACMAN, Frozen-lake, etc.        |
-| Course Recommendation System          | Appriori Algorithm based recommendation system to suggest courses based on past student's data at IIIT Delhi |
-
-### Research Papers (Anubhav Reads)
-
-A list of research papers in the domain of machine learning, deep learning and related fields. The list of papers can be viewed based on differentiating criteria's such as (Conference venue, Year Published, Topic Covered, Authors, etc.).
-
-You can find the curated list of research papers in [this repository](https://github.com/anubhavshrimal/Machine-Learning-Research-Papers).
-
-
-### Kaggle Competitions
-
-| Algorithm/Topic                                                               | Description                                                                      |
-| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| [Dogs-vs-Cats-Redux-Kernels](Kaggle-Competitions/Dogs-vs-Cats-Redux-Kernels/) | Dogs vs Cats Classification using transfer learning `Resnet34` (CNN) in PyTorch  |
-| [Dog-Breed-Identification](Kaggle-Competitions/Dog-Breed-Identification/)     | Dog Breed Identification using transfer learning `Resnet101_64` (CNN) in PyTorch |
-
-### Algorithms
-
-| Algorithm/Topic                                              | Description                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------ |
-| [Clustering Algorithms](Algorithms/Clustering/)              | Unsupervised algorithms such as K-Means and Mean-Shift |
-| [Deep Learning](Algorithms/Deep_Learning/)                   | Deep Neural Networks and Recurrent Neural Networks     |
-| [K Nearest Neighbours](Algorithms/K_Nearest_Neighbours/)     |                                                        |
-| [Linear Regression](Algorithms/Linear_Regression/)           |                                                        |
-| [Support Vector Machine](Algorithms/Support_Vector_Machine/) |                                                        |
+* [Support Vector Machine](Support_Vector_Machine/)
+    * [Scikit Learn Implementation](Support_Vector_Machine/svm_sklearn.py)
